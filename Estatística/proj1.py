@@ -17,10 +17,7 @@ def convert_to_string(data):
 
 teste = read_txt_file("seq1.txt")
 
-numeros = [] #{número: frequência}
-#for i in range(0,64):
- #   numeros[i] = 0
-
+numeros = []
 str_check = ""
 
 for bit in teste:
